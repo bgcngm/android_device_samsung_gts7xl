@@ -16,8 +16,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1600
-TARGET_SCREEN_WIDTH := 2560
+TARGET_SCREEN_HEIGHT := 1752
+TARGET_SCREEN_WIDTH := 2800
 
 # Init files
 PRODUCT_PACKAGES += \
