@@ -2969,12 +2969,12 @@
 
     <path name="echo-main-mic">
         <path name="main-mic" />
-        <ctl name="TX_DEC0 Volume" value="89" />
+        <ctl name="TX_DEC0 Volume" value="100" />
     </path>
 
     <path name="echo-sub-mic">
         <path name="sub-mic" />
-        <ctl name="TX_DEC1 Volume" value="89" />
+        <ctl name="TX_DEC1 Volume" value="100" />
     </path>
 
     <path name="echo-3rd-mic">
@@ -3073,14 +3073,14 @@
 
     <path name="bargein-aec-speaker-mic">
         <path name="sub-main-mic" />
-        <ctl name="TX_DEC0 Volume" value="107" />
-        <ctl name="TX_DEC1 Volume" value="117" />
+        <ctl name="TX_DEC0 Volume" value="105" />
+        <ctl name="TX_DEC1 Volume" value="114" />
     </path>
 
     <path name="bargein-aec-dual-speaker-mic">
         <path name="sub-main-mic" />
-        <ctl name="TX_DEC0 Volume" value="107" />
-        <ctl name="TX_DEC1 Volume" value="117" />
+        <ctl name="TX_DEC0 Volume" value="105" />
+        <ctl name="TX_DEC1 Volume" value="114" />
     </path>
 
     <path name="bargein-aec-earphone-mic">
@@ -3222,8 +3222,8 @@
 
     <path name="call-speaker-mic">
         <path name="main-sub-mic" />
-        <ctl name="TX_DEC0 Volume" value="94" />
-        <ctl name="TX_DEC1 Volume" value="94" />
+        <ctl name="TX_DEC0 Volume" value="96" />
+        <ctl name="TX_DEC1 Volume" value="84" />
     </path>
 
     <path name="call-headphone-mic">
@@ -3349,13 +3349,13 @@
     </path>
 
     <path name="wifi-call-speaker-mic">
-        <path name="main-sub-mic" />
+        <path name="sub-main-mic" />
         <ctl name="TX_DEC0 Volume" value="94" />
         <ctl name="TX_DEC1 Volume" value="94" />
     </path>
 
     <path name="wifi-call-dual-speaker-mic">
-        <path name="main-sub-mic" />
+        <path name="sub-main-mic" />
         <ctl name="TX_DEC0 Volume" value="88" />
         <ctl name="TX_DEC1 Volume" value="88" />
     </path>
@@ -3751,13 +3751,13 @@
     </path>
 
     <path name="voip-gaming-speaker-mic">
-        <path name="main-sub-mic" />
+        <path name="sub-main-mic" />
         <ctl name="TX_DEC0 Volume" value="94" />
         <ctl name="TX_DEC1 Volume" value="94" />
     </path>
 
     <path name="voip-gaming-dual-speaker-mic">
-        <path name="main-sub-mic" />
+        <path name="sub-main-mic" />
         <ctl name="TX_DEC0 Volume" value="88" />
         <ctl name="TX_DEC1 Volume" value="88" />
     </path>
@@ -3894,7 +3894,7 @@
     <!-- TX part -->
     <path name="loopback-main-mic">
         <path name="main-mic" />
-        <ctl name="TX_DEC0 Volume" value="107" />
+        <ctl name="TX_DEC0 Volume" value="105" />
     </path>
 
     <path name="loopback-dual-mic">
@@ -3905,7 +3905,7 @@
 
     <path name="loopback-sub-mic">
         <path name="sub-mic" />
-        <ctl name="TX_DEC1 Volume" value="107" />
+        <ctl name="TX_DEC1 Volume" value="105" />
     </path>
 
     <path name="loopback-3rd-mic">
